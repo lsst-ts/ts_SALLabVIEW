@@ -55,6 +55,7 @@
 				<Item Name="Boolean.lvclass" Type="LVClass" URL="../Elements/Boolean/Boolean.lvclass"/>
 				<Item Name="Numeric.lvclass" Type="LVClass" URL="../Elements/Numeric/Numeric.lvclass"/>
 				<Item Name="String.lvclass" Type="LVClass" URL="../Elements/String/String.lvclass"/>
+				<Item Name="Enum.lvclass" Type="LVClass" URL="../Elements/Enum/Enum.lvclass"/>
 			</Item>
 			<Item Name="Array.lvclass" Type="LVClass" URL="../Elements/Array/Array.lvclass"/>
 			<Item Name="Primitive.lvclass" Type="LVClass" URL="../Elements/Primitive/Primitive.lvclass"/>
