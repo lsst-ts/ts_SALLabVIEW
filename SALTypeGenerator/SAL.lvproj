@@ -91,6 +91,9 @@
 			<Item Name="RenameVI.vi" Type="VI" URL="../../VIUpdate/RenameVI.vi"/>
 			<Item Name="UpdateVI.vi" Type="VI" URL="../../VIUpdate/UpdateVI.vi"/>
 		</Item>
+		<Item Name="Enumeration" Type="Folder">
+			<Item Name="Enumeration.lvclass" Type="LVClass" URL="../Enumeration/Enumeration.lvclass"/>
+		</Item>
 		<Item Name="controlGenerator.vi" Type="VI" URL="../controlGenerator.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../../main.vi"/>
 		<Item Name="viUpdate.vi" Type="VI" URL="../../VIUpdate/viUpdate.vi"/>
