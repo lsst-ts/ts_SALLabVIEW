@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -90,13 +90,15 @@
 			<Item Name="LabelToControl.vi" Type="VI" URL="../../VIUpdate/LabelToControl.vi"/>
 			<Item Name="RenameVI.vi" Type="VI" URL="../../VIUpdate/RenameVI.vi"/>
 			<Item Name="UpdateVI.vi" Type="VI" URL="../../VIUpdate/UpdateVI.vi"/>
+			<Item Name="viUpdate.vi" Type="VI" URL="../../VIUpdate/viUpdate.vi"/>
 		</Item>
 		<Item Name="Enumeration" Type="Folder">
 			<Item Name="Enumeration.lvclass" Type="LVClass" URL="../Enumeration/Enumeration.lvclass"/>
 		</Item>
-		<Item Name="controlGenerator.vi" Type="VI" URL="../controlGenerator.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../../main.vi"/>
-		<Item Name="viUpdate.vi" Type="VI" URL="../../VIUpdate/viUpdate.vi"/>
+		<Item Name="TopLevel" Type="Folder">
+			<Item Name="controlGenerator.vi" Type="VI" URL="../TopLevel/controlGenerator.vi"/>
+			<Item Name="main.vi" Type="VI" URL="../TopLevel/main.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
