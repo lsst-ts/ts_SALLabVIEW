@@ -86,17 +86,21 @@
 			<Item Name="LibraryInfo.ctl" Type="VI" URL="../Typedefs/LibraryInfo.ctl"/>
 		</Item>
 		<Item Name="VIUpdate" Type="Folder">
-			<Item Name="ControlExists.vi" Type="VI" URL="../../VIUpdate/ControlExists.vi"/>
-			<Item Name="LabelToControl.vi" Type="VI" URL="../../VIUpdate/LabelToControl.vi"/>
-			<Item Name="RenameVI.vi" Type="VI" URL="../../VIUpdate/RenameVI.vi"/>
-			<Item Name="UpdateVI.vi" Type="VI" URL="../../VIUpdate/UpdateVI.vi"/>
-			<Item Name="viUpdate.vi" Type="VI" URL="../../VIUpdate/viUpdate.vi"/>
+			<Item Name="LabelToControl.vi" Type="VI" URL="../VIUpdate/LabelToControl.vi"/>
+			<Item Name="ControlExists.vi" Type="VI" URL="../VIUpdate/ControlExists.vi"/>
+			<Item Name="RenameVI.vi" Type="VI" URL="../VIUpdate/RenameVI.vi"/>
+			<Item Name="UpdateVI.vi" Type="VI" URL="../VIUpdate/UpdateVI.vi"/>
+			<Item Name="viUpdate.vi" Type="VI" URL="../VIUpdate/viUpdate.vi"/>
 		</Item>
 		<Item Name="Enumeration" Type="Folder">
 			<Item Name="Enumeration.lvclass" Type="LVClass" URL="../Enumeration/Enumeration.lvclass"/>
 		</Item>
+		<Item Name="Utilily" Type="Folder">
+			<Item Name="cmdLineParser.vi" Type="VI" URL="../Utilily/cmdLineParser.vi"/>
+			<Item Name="getFilesPathByDialog.vi" Type="VI" URL="../Utilily/getFilesPathByDialog.vi"/>
+			<Item Name="controlGenerator.vi" Type="VI" URL="../Utilily/controlGenerator.vi"/>
+		</Item>
 		<Item Name="TopLevel" Type="Folder">
-			<Item Name="controlGenerator.vi" Type="VI" URL="../TopLevel/controlGenerator.vi"/>
 			<Item Name="main.vi" Type="VI" URL="../TopLevel/main.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -110,9 +114,12 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
