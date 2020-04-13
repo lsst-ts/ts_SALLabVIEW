@@ -1,0 +1,244 @@
+module Test {
+	 const long Test_shared_SummaryState_DisabledState=1;
+	 const long Test_shared_SummaryState_EnabledState=2;
+	 const long Test_shared_SummaryState_FaultState=3;
+	 const long Test_shared_SummaryState_OfflineState=4;
+	 const long Test_shared_SummaryState_StandbyState=5;
+	struct arrays {
+	  boolean	boolean0[5];
+	  octet	byte0[5];
+	  short	short0[5];
+	  long	int0[5];
+	  long	long0[5];
+	  long long	longLong0[5];
+	  octet	octet0[5];
+	  unsigned short	unsignedShort0[5];
+	  unsigned long	unsignedInt0[5];
+	  unsigned long	unsignedLong0[5];
+	  float	float0[5];
+	  double	double0[5];
+	};
+	#pragma keylist arrays TestID
+	struct command_abort {
+	  boolean	value;
+	};
+	#pragma keylist command_abort TestID
+	struct command_disable {
+	  boolean	value;
+	};
+	#pragma keylist command_disable TestID
+	struct command_enable {
+	  boolean	value;
+	};
+	#pragma keylist command_enable TestID
+	struct command_enterControl {
+	  boolean	value;
+	};
+	#pragma keylist command_enterControl TestID
+	struct command_exitControl {
+	  boolean	value;
+	};
+	#pragma keylist command_exitControl TestID
+	struct command_fault {
+	  boolean	ignored;
+	};
+	#pragma keylist command_fault TestID
+	struct command_setArrays {
+	  boolean	boolean0[5];
+	  octet	byte0[5];
+	  short	short0[5];
+	  long	int0[5];
+	  long	long0[5];
+	  long long	longLong0[5];
+	  octet	octet0[5];
+	  unsigned short	unsignedShort0[5];
+	  unsigned long	unsignedInt0[5];
+	  unsigned long	unsignedLong0[5];
+	  float	float0[5];
+	  double	double0[5];
+	};
+	#pragma keylist command_setArrays TestID
+	struct command_setLogLevel {
+	  long	level;
+	};
+	#pragma keylist command_setLogLevel TestID
+	struct command_setScalars {
+	  boolean	boolean0;
+	  octet	byte0;
+	  string	char0;
+	  short	short0;
+	  long	int0;
+	  long	long0;
+	  long long	longLong0;
+	  octet	octet0;
+	  unsigned short	unsignedShort0;
+	  unsigned long	unsignedInt0;
+	  unsigned long	unsignedLong0;
+	  float	float0;
+	  double	double0;
+	  string<20>	string0;
+	};
+	#pragma keylist command_setScalars TestID
+	struct command_setSimulationMode {
+	  long	mode;
+	};
+	#pragma keylist command_setSimulationMode TestID
+	struct command_setValue {
+	  string<256>	parametersAndValues;
+	};
+	#pragma keylist command_setValue TestID
+	struct command_standby {
+	  boolean	value;
+	};
+	#pragma keylist command_standby TestID
+	struct command_start {
+	  string<256>	settingsToApply;
+	};
+	#pragma keylist command_start TestID
+	struct command_wait {
+      long	cmdSeqNum;
+	  long	ack;
+	  double	duration;
+	};
+	#pragma keylist command_wait TestID
+	struct logevent_appliedSettingsMatchStart {
+	  boolean	appliedSettingsMatchStartIsTrue;
+	  long	priority;
+	};
+	#pragma keylist logevent_appliedSettingsMatchStart TestID
+	struct logevent_arrays {
+	  boolean	boolean0[5];
+	  octet	byte0[5];
+	  short	short0[5];
+	  long	int0[5];
+	  long	long0[5];
+	  long long	longLong0[5];
+	  octet	octet0[5];
+	  unsigned short	unsignedShort0[5];
+	  unsigned long	unsignedInt0[5];
+	  unsigned long	unsignedLong0[5];
+	  float	float0[5];
+	  double	double0[5];
+	  long	priority;
+	};
+	#pragma keylist logevent_arrays TestID
+	 const long arrays_Int0ValueEnum_Zero=0;
+	 const long arrays_Int0ValueEnum_Two=2;
+	 const long arrays_Int0ValueEnum_Four=04;
+	 const long arrays_Int0ValueEnum_Five=0x05;
+	struct logevent_errorCode {
+	  long	errorCode;
+	  string	errorReport;
+	  string	traceback;
+	  long	priority;
+	};
+	#pragma keylist logevent_errorCode TestID
+	struct logevent_heartbeat {
+	  boolean	heartbeat;
+	  long	priority;
+	};
+	#pragma keylist logevent_heartbeat TestID
+	struct logevent_logLevel {
+	  long	level;
+	  long	priority;
+	};
+	#pragma keylist logevent_logLevel TestID
+	struct logevent_logMessage {
+	  long	level;
+	  string	message;
+	  string	traceback;
+	  long	priority;
+	};
+	#pragma keylist logevent_logMessage TestID
+	struct logevent_scalars {
+	  boolean	boolean0;
+	  octet	byte0;
+	  string	char0;
+	  short	short0;
+	  long	int0;	// enum : Int0Enum_One, Int0Enum_Two, Int0Enum_Three
+	  long	long0;
+	  long long	longLong0;
+	  octet	octet0;
+	  unsigned short	unsignedShort0;
+	  unsigned long	unsignedInt0;
+	  unsigned long	unsignedLong0;
+	  float	float0;
+	  double	double0;
+	  string<20>	string0;
+	  long	priority;
+	};
+	#pragma keylist logevent_scalars TestID
+	 const long scalars_Int0Enum_One=1;
+	 const long scalars_Int0Enum_Two=2;
+	 const long scalars_Int0Enum_Three=3;
+	 const long Test_shared_Enum_One=1;
+	 const long Test_shared_Enum_Two=2;
+	 const long Test_shared_Enum_Three=3;
+	 const long Test_shared_ValueEnum_Zero=0;
+	 const long Test_shared_ValueEnum_Two=2;
+	 const long Test_shared_ValueEnum_Four=04;
+	 const long Test_shared_ValueEnum_Five=0x05;
+	struct logevent_settingVersions {
+	  string	recommendedSettingsVersion;
+	  string	recommendedSettingsLabels;
+	  string	settingsUrl;
+	  long	priority;
+	};
+	#pragma keylist logevent_settingVersions TestID
+	struct logevent_simulationMode {
+	  long	mode;
+	  long	priority;
+	};
+	#pragma keylist logevent_simulationMode TestID
+	struct logevent_softwareVersions {
+	  string<16>	salVersion;
+	  string<16>	xmlVersion;
+	  string<16>	openSpliceVersion;
+	  string<16>	cscVersion;
+	  string	subsystemVersions;
+	  long	priority;
+	};
+	#pragma keylist logevent_softwareVersions TestID
+	struct logevent_summaryState {
+	  long	summaryState;
+	  long	priority;
+	};
+	#pragma keylist logevent_summaryState TestID
+	struct scalars {
+	  boolean	boolean0;
+	  octet	byte0;
+	  string	char0;
+	  short	short0;
+	  long	int0;	// enum : Int0Enum_One, Int0Enum_Two, Int0Enum_Three
+	  long	long0;
+	  long long	longLong0;
+	  octet	octet0;
+	  unsigned short	unsignedShort0;
+	  unsigned long	unsignedInt0;
+	  unsigned long	unsignedLong0;
+	  float	float0;
+	  double	double0;
+	  string<20>	string0;
+	};
+	#pragma keylist scalars TestID
+	struct command {
+	  string<128>	modifiers;
+	};
+	#pragma keylist command TestID
+	struct logevent {
+	  string<128>	message;
+	};
+	#pragma keylist logevent TestID
+	struct ackcmd {
+      long	cmdSeqNum;
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+	#pragma keylist ackcmd TestID
+};
+
