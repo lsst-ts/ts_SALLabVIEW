@@ -9,12 +9,14 @@ This module supports to generate the type definition and wrap the SAL LabVIEW AP
 
 ## Needed Package
 
-- JKI VI Package Manager (vipm)
-- Caraya Unit Test Framework (installed by vipm)
+- JKI VI Package Manager 2017 (vipm)
+- Caraya Unit Test Framework (installed by vipm, optional, test only)
 
-## Update the Vi by the Command Line
+## Update the SAL LabVIEW Vi by the Command Line
 
-User can also use the command line as the following:
+1. Before the use of command line interface, you need to open the TCP/IP connection in LabVIEW first. The setup can follow [here](https://support.vipm.io/hc/en-us/articles/214135683-Resolving-issues-with-VIPM-connecting-to-LabVIEW).
+
+2. You can use the command line interface as the following (use the absolute file paths of IDL file and SAL LabVIEW library):
 
 ``` bash
 labview64 $path_to_main_vi -- $abs_path_to_idl_file $abs_path_to_dir_of_lvlib
@@ -26,14 +28,14 @@ For example,
 labview64 SALTypeGenerator/TopLevel/main.vi -- /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestIdl/sal_Test.idl /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestData/
 ```
 
-## Run the Software
+## Run the Software as a LabVIEW Project
 
 1. Run the LabVIEW, and open the project of `SALTypeGenerator.lvproj` in the `SALTypeGenerator/` directory.
 2. Execute the `main.vi` under the `TopLevel/` directory in project.
 
 ## Do the Unit Test
 
-You can run the `testAll.vi` under the `Tests/` directory in `SALTypeGenerator.lvproj` to do the unit tests.
+You can run the `testAll.vi` under the `Tests/` directory in `SALTypeGenerator.lvproj` to do the unit tests by using the Caraya unit test framework.
 
 ## Do the Performance Evaluation
 
