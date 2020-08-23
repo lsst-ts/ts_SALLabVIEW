@@ -16,5 +16,6 @@
 *.lvlps
 .cache/
 
-# Targets
+# Directories
 Build/
+Log/

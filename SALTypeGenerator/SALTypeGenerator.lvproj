@@ -65,6 +65,7 @@
 				<Item Name="testModule.vi" Type="VI" URL="../../Tests/Module/testModule.vi"/>
 			</Item>
 			<Item Name="testAll.vi" Type="VI" URL="../../Tests/testAll.vi"/>
+			<Item Name="testAllWithXmlReport.vi" Type="VI" URL="../../Tests/testAllWithXmlReport.vi"/>
 			<Item Name="evalPerf.vi" Type="VI" URL="../../Tests/evalPerf.vi"/>
 		</Item>
 		<Item Name="Element" Type="Folder">
