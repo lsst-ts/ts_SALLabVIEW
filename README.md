@@ -35,7 +35,13 @@ labview64 SALTypeGenerator/TopLevel/main.vi -- /home/ttsai/Documents/github/ts_S
 
 ## Do the Unit Test
 
-You can run the `testAll.vi` under the `Tests/` directory in `SALTypeGenerator.lvproj` to do the unit tests by using the Caraya unit test framework.
+1. You can run the `testAll.vi` under the `Tests/` directory in `SALTypeGenerator.lvproj` to do the unit tests by using the Caraya unit test framework.
+
+2. To do the unit tests and generate the JUnit xml report from the command line, do the following command. The generated report (`testReport.xml`) will be in the `Log/` directory.
+
+```bash
+labview64 Tests/testAllWithXmlReport.vi
+```
 
 ## Do the Performance Evaluation
 

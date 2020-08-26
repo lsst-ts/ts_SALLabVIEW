@@ -1,5 +1,10 @@
 # Version History
 
+1.0.3
+
+- Run the Caraya unit test and generate the JUnit xml report from the command line.
+- Support the Jenkins automatic test.
+
 1.0.2
 
 - Add the Caraya unit test framework.
