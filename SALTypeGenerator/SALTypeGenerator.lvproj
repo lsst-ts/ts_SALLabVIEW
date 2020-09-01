@@ -24,6 +24,7 @@
 			<Item Name="Utility" Type="Folder">
 				<Item Name="TestCase" Type="Folder">
 					<Item Name="testCmdLineParser.vi" Type="VI" URL="../../Tests/Utility/TestCase/testCmdLineParser.vi"/>
+					<Item Name="testGetConfigFileSharedEnum.vi" Type="VI" URL="../../Tests/Utility/TestCase/testGetConfigFileSharedEnum.vi"/>
 				</Item>
 				<Item Name="testUtility.vi" Type="VI" URL="../../Tests/Utility/testUtility.vi"/>
 				<Item Name="getTestIdlFilePath.vi" Type="VI" URL="../../Tests/Utility/getTestIdlFilePath.vi"/>
@@ -39,7 +40,10 @@
 				<Item Name="TestCase" Type="Folder">
 					<Item Name="testParseTopicString.vi" Type="VI" URL="../../Tests/Topic/TestCase/testParseTopicString.vi"/>
 					<Item Name="testGetSpecificElement.vi" Type="VI" URL="../../Tests/Topic/TestCase/testGetSpecificElement.vi"/>
+					<Item Name="testExtractElementBasicType.vi" Type="VI" URL="../../Tests/Topic/TestCase/testExtractElementBasicType.vi"/>
+					<Item Name="testExtractElementName.vi" Type="VI" URL="../../Tests/Topic/TestCase/testExtractElementName.vi"/>
 				</Item>
+				<Item Name="testCheckSharedEnum.vi" Type="VI" URL="../../Tests/Topic/TestCase/testCheckSharedEnum.vi"/>
 				<Item Name="testTopic.vi" Type="VI" URL="../../Tests/Topic/testTopic.vi"/>
 			</Item>
 			<Item Name="ElementFactory" Type="Folder">
@@ -61,6 +65,8 @@
 			<Item Name="Module" Type="Folder">
 				<Item Name="TestCase" Type="Folder">
 					<Item Name="testGetSpecificTopic.vi" Type="VI" URL="../../Tests/Module/TestCase/testGetSpecificTopic.vi"/>
+					<Item Name="testExtractTopicContents.vi" Type="VI" URL="../../Tests/Module/TestCase/testExtractTopicContents.vi"/>
+					<Item Name="testExtractTopicName.vi" Type="VI" URL="../../Tests/Module/TestCase/testExtractTopicName.vi"/>
 				</Item>
 				<Item Name="testModule.vi" Type="VI" URL="../../Tests/Module/testModule.vi"/>
 			</Item>
@@ -143,6 +149,7 @@
 			<Item Name="cmdLineParser.vi" Type="VI" URL="../Utilily/cmdLineParser.vi"/>
 			<Item Name="getFilesPathByDialog.vi" Type="VI" URL="../Utilily/getFilesPathByDialog.vi"/>
 			<Item Name="controlGenerator.vi" Type="VI" URL="../Utilily/controlGenerator.vi"/>
+			<Item Name="getConfigFileSharedEnum.vi" Type="VI" URL="../Utilily/getConfigFileSharedEnum.vi"/>
 		</Item>
 		<Item Name="TopLevel" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../TopLevel/main.vi"/>
