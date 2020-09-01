@@ -19,3 +19,6 @@
 # Directories
 Build/
 Log/
+
+# Temporary directory in the test (evalPerf.vi)
+testPerfTemp/

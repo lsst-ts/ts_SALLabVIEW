@@ -1,5 +1,11 @@
 # Version History
 
+1.0.4
+
+- Rename the **Jenkinsfile** to **Jenkinsfile.labview**.
+- Support the shared enumeration from SAL based on the configuration file.
+- Remove the restriction of tab/space in the IDL file.
+
 1.0.3
 
 - Run the Caraya unit test and generate the JUnit xml report from the command line.
