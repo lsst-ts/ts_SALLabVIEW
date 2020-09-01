@@ -151,9 +151,7 @@
 			<Item Name="controlGenerator.vi" Type="VI" URL="../Utilily/controlGenerator.vi"/>
 			<Item Name="getConfigFileSharedEnum.vi" Type="VI" URL="../Utilily/getConfigFileSharedEnum.vi"/>
 		</Item>
-		<Item Name="TopLevel" Type="Folder">
-			<Item Name="main.vi" Type="VI" URL="../TopLevel/main.vi"/>
-		</Item>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>

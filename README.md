@@ -27,7 +27,7 @@ labview64 $path_to_main_vi -- $abs_path_to_idl_file $abs_path_to_dir_of_lvlib
 For example,
 
 ```bash
-labview64 SALTypeGenerator/TopLevel/main.vi -- /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestIdl/sal_Test.idl /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestData/
+labview64 SALTypeGenerator/main.vi -- /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestIdl/sal_Test.idl /home/ttsai/Documents/github/ts_SALLabVIEW/Tests/TestData/
 ```
 
 ## Run the Software as a LabVIEW Project
