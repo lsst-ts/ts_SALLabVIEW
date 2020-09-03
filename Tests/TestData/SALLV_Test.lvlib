@@ -13,9 +13,9 @@
 	<Item Name="Test shm accept Command exit Control LV.vi" Type="VI" URL="../VIs/Test shm accept Command exit Control LV.vi"/>
 	<Item Name="Test shm accept Command fault LV.vi" Type="VI" URL="../VIs/Test shm accept Command fault LV.vi"/>
 	<Item Name="Test shm accept Command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Arrays LV.vi"/>
+	<Item Name="Test shm accept Command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Auth List LV.vi"/>
 	<Item Name="Test shm accept Command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Log Level LV.vi"/>
 	<Item Name="Test shm accept Command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Scalars LV.vi"/>
-	<Item Name="Test shm accept Command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Simulation Mode LV.vi"/>
 	<Item Name="Test shm accept Command set Value LV.vi" Type="VI" URL="../VIs/Test shm accept Command set Value LV.vi"/>
 	<Item Name="Test shm accept Command standby LV.vi" Type="VI" URL="../VIs/Test shm accept Command standby LV.vi"/>
 	<Item Name="Test shm accept Command start LV.vi" Type="VI" URL="../VIs/Test shm accept Command start LV.vi"/>
@@ -27,16 +27,15 @@
 	<Item Name="Test shm ack Command exit Control LV.vi" Type="VI" URL="../VIs/Test shm ack Command exit Control LV.vi"/>
 	<Item Name="Test shm ack Command fault LV.vi" Type="VI" URL="../VIs/Test shm ack Command fault LV.vi"/>
 	<Item Name="Test shm ack Command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Arrays LV.vi"/>
+	<Item Name="Test shm ack Command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Auth List LV.vi"/>
 	<Item Name="Test shm ack Command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Log Level LV.vi"/>
 	<Item Name="Test shm ack Command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Scalars LV.vi"/>
-	<Item Name="Test shm ack Command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Simulation Mode LV.vi"/>
 	<Item Name="Test shm ack Command set Value LV.vi" Type="VI" URL="../VIs/Test shm ack Command set Value LV.vi"/>
 	<Item Name="Test shm ack Command standby LV.vi" Type="VI" URL="../VIs/Test shm ack Command standby LV.vi"/>
 	<Item Name="Test shm ack Command start LV.vi" Type="VI" URL="../VIs/Test shm ack Command start LV.vi"/>
 	<Item Name="Test shm ack Command wait LV.vi" Type="VI" URL="../VIs/Test shm ack Command wait LV.vi"/>
 	<Item Name="Test shm cancel Callback ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback arrays LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback arrays LV.vi"/>
-	<Item Name="Test shm cancel Callback command LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command LV.vi"/>
 	<Item Name="Test shm cancel Callback command abort LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command abort LV.vi"/>
 	<Item Name="Test shm cancel Callback command abort ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command abort ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command disable LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command disable LV.vi"/>
@@ -51,12 +50,12 @@
 	<Item Name="Test shm cancel Callback command fault ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command fault ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Arrays LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Arrays ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Arrays ackcmd LV.vi"/>
+	<Item Name="Test shm cancel Callback command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Auth List LV.vi"/>
+	<Item Name="Test shm cancel Callback command set Auth List ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Auth List ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Log Level LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Log Level ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Log Level ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Scalars LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Scalars ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Scalars ackcmd LV.vi"/>
-	<Item Name="Test shm cancel Callback command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Simulation Mode LV.vi"/>
-	<Item Name="Test shm cancel Callback command set Simulation Mode ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Simulation Mode ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Value LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Value LV.vi"/>
 	<Item Name="Test shm cancel Callback command set Value ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command set Value ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command standby LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command standby LV.vi"/>
@@ -65,15 +64,16 @@
 	<Item Name="Test shm cancel Callback command start ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command start ackcmd LV.vi"/>
 	<Item Name="Test shm cancel Callback command wait LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command wait LV.vi"/>
 	<Item Name="Test shm cancel Callback command wait ackcmd LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback command wait ackcmd LV.vi"/>
-	<Item Name="Test shm cancel Callback logevent LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent arrays LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent arrays LV.vi"/>
+	<Item Name="Test shm cancel Callback logevent auth List LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent auth List LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent error Code LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent error Code LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent heartbeat LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent heartbeat LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent log Level LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent log Level LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent log Message LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent log Message LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent scalars LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent scalars LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent setting Versions LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent setting Versions LV.vi"/>
+	<Item Name="Test shm cancel Callback logevent settings Applied LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent settings Applied LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent simulation Mode LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent software Versions LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent software Versions LV.vi"/>
 	<Item Name="Test shm cancel Callback logevent summary State LV.vi" Type="VI" URL="../VIs/Test shm cancel Callback logevent summary State LV.vi"/>
@@ -81,24 +81,28 @@
 	<Item Name="Test shm check Callbacks LV.vi" Type="VI" URL="../VIs/Test shm check Callbacks LV.vi"/>
 	<Item Name="Test shm flush Samples Event applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm flush Samples Event arrays LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event arrays LV.vi"/>
+	<Item Name="Test shm flush Samples Event auth List LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event auth List LV.vi"/>
 	<Item Name="Test shm flush Samples Event error Code LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event error Code LV.vi"/>
 	<Item Name="Test shm flush Samples Event heartbeat LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event heartbeat LV.vi"/>
 	<Item Name="Test shm flush Samples Event log Level LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event log Level LV.vi"/>
 	<Item Name="Test shm flush Samples Event log Message LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event log Message LV.vi"/>
 	<Item Name="Test shm flush Samples Event scalars LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event scalars LV.vi"/>
 	<Item Name="Test shm flush Samples Event setting Versions LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event setting Versions LV.vi"/>
+	<Item Name="Test shm flush Samples Event settings Applied LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event settings Applied LV.vi"/>
 	<Item Name="Test shm flush Samples Event simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event simulation Mode LV.vi"/>
 	<Item Name="Test shm flush Samples Event software Versions LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event software Versions LV.vi"/>
 	<Item Name="Test shm flush Samples Event summary State LV.vi" Type="VI" URL="../VIs/Test shm flush Samples Event summary State LV.vi"/>
 	<Item Name="Test shm get Current Time LV.vi" Type="VI" URL="../VIs/Test shm get Current Time LV.vi"/>
 	<Item Name="Test shm get Event applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm get Event applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm get Event arrays LV.vi" Type="VI" URL="../VIs/Test shm get Event arrays LV.vi"/>
+	<Item Name="Test shm get Event auth List LV.vi" Type="VI" URL="../VIs/Test shm get Event auth List LV.vi"/>
 	<Item Name="Test shm get Event error Code LV.vi" Type="VI" URL="../VIs/Test shm get Event error Code LV.vi"/>
 	<Item Name="Test shm get Event heartbeat LV.vi" Type="VI" URL="../VIs/Test shm get Event heartbeat LV.vi"/>
 	<Item Name="Test shm get Event log Level LV.vi" Type="VI" URL="../VIs/Test shm get Event log Level LV.vi"/>
 	<Item Name="Test shm get Event log Message LV.vi" Type="VI" URL="../VIs/Test shm get Event log Message LV.vi"/>
 	<Item Name="Test shm get Event scalars LV.vi" Type="VI" URL="../VIs/Test shm get Event scalars LV.vi"/>
 	<Item Name="Test shm get Event setting Versions LV.vi" Type="VI" URL="../VIs/Test shm get Event setting Versions LV.vi"/>
+	<Item Name="Test shm get Event settings Applied LV.vi" Type="VI" URL="../VIs/Test shm get Event settings Applied LV.vi"/>
 	<Item Name="Test shm get Event simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm get Event simulation Mode LV.vi"/>
 	<Item Name="Test shm get Event software Versions LV.vi" Type="VI" URL="../VIs/Test shm get Event software Versions LV.vi"/>
 	<Item Name="Test shm get Event summary State LV.vi" Type="VI" URL="../VIs/Test shm get Event summary State LV.vi"/>
@@ -111,9 +115,9 @@
 	<Item Name="Test shm get Response exit Control LV.vi" Type="VI" URL="../VIs/Test shm get Response exit Control LV.vi"/>
 	<Item Name="Test shm get Response fault LV.vi" Type="VI" URL="../VIs/Test shm get Response fault LV.vi"/>
 	<Item Name="Test shm get Response set Arrays LV.vi" Type="VI" URL="../VIs/Test shm get Response set Arrays LV.vi"/>
+	<Item Name="Test shm get Response set Auth List LV.vi" Type="VI" URL="../VIs/Test shm get Response set Auth List LV.vi"/>
 	<Item Name="Test shm get Response set Log Level LV.vi" Type="VI" URL="../VIs/Test shm get Response set Log Level LV.vi"/>
 	<Item Name="Test shm get Response set Scalars LV.vi" Type="VI" URL="../VIs/Test shm get Response set Scalars LV.vi"/>
-	<Item Name="Test shm get Response set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm get Response set Simulation Mode LV.vi"/>
 	<Item Name="Test shm get Response set Value LV.vi" Type="VI" URL="../VIs/Test shm get Response set Value LV.vi"/>
 	<Item Name="Test shm get Response standby LV.vi" Type="VI" URL="../VIs/Test shm get Response standby LV.vi"/>
 	<Item Name="Test shm get Response start LV.vi" Type="VI" URL="../VIs/Test shm get Response start LV.vi"/>
@@ -128,21 +132,23 @@
 	<Item Name="Test shm issue Command exit Control LV.vi" Type="VI" URL="../VIs/Test shm issue Command exit Control LV.vi"/>
 	<Item Name="Test shm issue Command fault LV.vi" Type="VI" URL="../VIs/Test shm issue Command fault LV.vi"/>
 	<Item Name="Test shm issue Command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Arrays LV.vi"/>
+	<Item Name="Test shm issue Command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Auth List LV.vi"/>
 	<Item Name="Test shm issue Command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Log Level LV.vi"/>
 	<Item Name="Test shm issue Command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Scalars LV.vi"/>
-	<Item Name="Test shm issue Command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Simulation Mode LV.vi"/>
 	<Item Name="Test shm issue Command set Value LV.vi" Type="VI" URL="../VIs/Test shm issue Command set Value LV.vi"/>
 	<Item Name="Test shm issue Command standby LV.vi" Type="VI" URL="../VIs/Test shm issue Command standby LV.vi"/>
 	<Item Name="Test shm issue Command start LV.vi" Type="VI" URL="../VIs/Test shm issue Command start LV.vi"/>
 	<Item Name="Test shm issue Command wait LV.vi" Type="VI" URL="../VIs/Test shm issue Command wait LV.vi"/>
 	<Item Name="Test shm log Event applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm log Event applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm log Event arrays LV.vi" Type="VI" URL="../VIs/Test shm log Event arrays LV.vi"/>
+	<Item Name="Test shm log Event auth List LV.vi" Type="VI" URL="../VIs/Test shm log Event auth List LV.vi"/>
 	<Item Name="Test shm log Event error Code LV.vi" Type="VI" URL="../VIs/Test shm log Event error Code LV.vi"/>
 	<Item Name="Test shm log Event heartbeat LV.vi" Type="VI" URL="../VIs/Test shm log Event heartbeat LV.vi"/>
 	<Item Name="Test shm log Event log Level LV.vi" Type="VI" URL="../VIs/Test shm log Event log Level LV.vi"/>
 	<Item Name="Test shm log Event log Message LV.vi" Type="VI" URL="../VIs/Test shm log Event log Message LV.vi"/>
 	<Item Name="Test shm log Event scalars LV.vi" Type="VI" URL="../VIs/Test shm log Event scalars LV.vi"/>
 	<Item Name="Test shm log Event setting Versions LV.vi" Type="VI" URL="../VIs/Test shm log Event setting Versions LV.vi"/>
+	<Item Name="Test shm log Event settings Applied LV.vi" Type="VI" URL="../VIs/Test shm log Event settings Applied LV.vi"/>
 	<Item Name="Test shm log Event simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm log Event simulation Mode LV.vi"/>
 	<Item Name="Test shm log Event software Versions LV.vi" Type="VI" URL="../VIs/Test shm log Event software Versions LV.vi"/>
 	<Item Name="Test shm log Event summary State LV.vi" Type="VI" URL="../VIs/Test shm log Event summary State LV.vi"/>
@@ -153,9 +159,9 @@
 	<Item Name="Test shm monitor Command exit Control LV.vi" Type="VI" URL="../VIs/Test shm monitor Command exit Control LV.vi"/>
 	<Item Name="Test shm monitor Command fault LV.vi" Type="VI" URL="../VIs/Test shm monitor Command fault LV.vi"/>
 	<Item Name="Test shm monitor Command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Arrays LV.vi"/>
+	<Item Name="Test shm monitor Command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Auth List LV.vi"/>
 	<Item Name="Test shm monitor Command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Log Level LV.vi"/>
 	<Item Name="Test shm monitor Command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Scalars LV.vi"/>
-	<Item Name="Test shm monitor Command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Simulation Mode LV.vi"/>
 	<Item Name="Test shm monitor Command set Value LV.vi" Type="VI" URL="../VIs/Test shm monitor Command set Value LV.vi"/>
 	<Item Name="Test shm monitor Command standby LV.vi" Type="VI" URL="../VIs/Test shm monitor Command standby LV.vi"/>
 	<Item Name="Test shm monitor Command start LV.vi" Type="VI" URL="../VIs/Test shm monitor Command start LV.vi"/>
@@ -164,7 +170,6 @@
 	<Item Name="Test shm put Sample scalars LV.vi" Type="VI" URL="../VIs/Test shm put Sample scalars LV.vi"/>
 	<Item Name="Test shm register Callback ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback arrays LV.vi" Type="VI" URL="../VIs/Test shm register Callback arrays LV.vi"/>
-	<Item Name="Test shm register Callback command LV.vi" Type="VI" URL="../VIs/Test shm register Callback command LV.vi"/>
 	<Item Name="Test shm register Callback command abort LV.vi" Type="VI" URL="../VIs/Test shm register Callback command abort LV.vi"/>
 	<Item Name="Test shm register Callback command abort ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command abort ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command disable LV.vi" Type="VI" URL="../VIs/Test shm register Callback command disable LV.vi"/>
@@ -179,12 +184,12 @@
 	<Item Name="Test shm register Callback command fault ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command fault ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command set Arrays LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Arrays LV.vi"/>
 	<Item Name="Test shm register Callback command set Arrays ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Arrays ackcmd LV.vi"/>
+	<Item Name="Test shm register Callback command set Auth List LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Auth List LV.vi"/>
+	<Item Name="Test shm register Callback command set Auth List ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Auth List ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command set Log Level LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Log Level LV.vi"/>
 	<Item Name="Test shm register Callback command set Log Level ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Log Level ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command set Scalars LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Scalars LV.vi"/>
 	<Item Name="Test shm register Callback command set Scalars ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Scalars ackcmd LV.vi"/>
-	<Item Name="Test shm register Callback command set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Simulation Mode LV.vi"/>
-	<Item Name="Test shm register Callback command set Simulation Mode ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Simulation Mode ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command set Value LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Value LV.vi"/>
 	<Item Name="Test shm register Callback command set Value ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command set Value ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command standby LV.vi" Type="VI" URL="../VIs/Test shm register Callback command standby LV.vi"/>
@@ -193,15 +198,16 @@
 	<Item Name="Test shm register Callback command start ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command start ackcmd LV.vi"/>
 	<Item Name="Test shm register Callback command wait LV.vi" Type="VI" URL="../VIs/Test shm register Callback command wait LV.vi"/>
 	<Item Name="Test shm register Callback command wait ackcmd LV.vi" Type="VI" URL="../VIs/Test shm register Callback command wait ackcmd LV.vi"/>
-	<Item Name="Test shm register Callback logevent LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent LV.vi"/>
 	<Item Name="Test shm register Callback logevent applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm register Callback logevent arrays LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent arrays LV.vi"/>
+	<Item Name="Test shm register Callback logevent auth List LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent auth List LV.vi"/>
 	<Item Name="Test shm register Callback logevent error Code LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent error Code LV.vi"/>
 	<Item Name="Test shm register Callback logevent heartbeat LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent heartbeat LV.vi"/>
 	<Item Name="Test shm register Callback logevent log Level LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent log Level LV.vi"/>
 	<Item Name="Test shm register Callback logevent log Message LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent log Message LV.vi"/>
 	<Item Name="Test shm register Callback logevent scalars LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent scalars LV.vi"/>
 	<Item Name="Test shm register Callback logevent setting Versions LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent setting Versions LV.vi"/>
+	<Item Name="Test shm register Callback logevent settings Applied LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent settings Applied LV.vi"/>
 	<Item Name="Test shm register Callback logevent simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent simulation Mode LV.vi"/>
 	<Item Name="Test shm register Callback logevent software Versions LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent software Versions LV.vi"/>
 	<Item Name="Test shm register Callback logevent summary State LV.vi" Type="VI" URL="../VIs/Test shm register Callback logevent summary State LV.vi"/>
@@ -213,21 +219,23 @@
 	<Item Name="Test shm sal Commander exit Control LV.vi" Type="VI" URL="../VIs/Test shm sal Commander exit Control LV.vi"/>
 	<Item Name="Test shm sal Commander fault LV.vi" Type="VI" URL="../VIs/Test shm sal Commander fault LV.vi"/>
 	<Item Name="Test shm sal Commander set Arrays LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Arrays LV.vi"/>
+	<Item Name="Test shm sal Commander set Auth List LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Auth List LV.vi"/>
 	<Item Name="Test shm sal Commander set Log Level LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Log Level LV.vi"/>
 	<Item Name="Test shm sal Commander set Scalars LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Scalars LV.vi"/>
-	<Item Name="Test shm sal Commander set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Simulation Mode LV.vi"/>
 	<Item Name="Test shm sal Commander set Value LV.vi" Type="VI" URL="../VIs/Test shm sal Commander set Value LV.vi"/>
 	<Item Name="Test shm sal Commander standby LV.vi" Type="VI" URL="../VIs/Test shm sal Commander standby LV.vi"/>
 	<Item Name="Test shm sal Commander start LV.vi" Type="VI" URL="../VIs/Test shm sal Commander start LV.vi"/>
 	<Item Name="Test shm sal Commander wait LV.vi" Type="VI" URL="../VIs/Test shm sal Commander wait LV.vi"/>
 	<Item Name="Test shm sal Event applied Settings Match Start LV.vi" Type="VI" URL="../VIs/Test shm sal Event applied Settings Match Start LV.vi"/>
 	<Item Name="Test shm sal Event arrays LV.vi" Type="VI" URL="../VIs/Test shm sal Event arrays LV.vi"/>
+	<Item Name="Test shm sal Event auth List LV.vi" Type="VI" URL="../VIs/Test shm sal Event auth List LV.vi"/>
 	<Item Name="Test shm sal Event error Code LV.vi" Type="VI" URL="../VIs/Test shm sal Event error Code LV.vi"/>
 	<Item Name="Test shm sal Event heartbeat LV.vi" Type="VI" URL="../VIs/Test shm sal Event heartbeat LV.vi"/>
 	<Item Name="Test shm sal Event log Level LV.vi" Type="VI" URL="../VIs/Test shm sal Event log Level LV.vi"/>
 	<Item Name="Test shm sal Event log Message LV.vi" Type="VI" URL="../VIs/Test shm sal Event log Message LV.vi"/>
 	<Item Name="Test shm sal Event scalars LV.vi" Type="VI" URL="../VIs/Test shm sal Event scalars LV.vi"/>
 	<Item Name="Test shm sal Event setting Versions LV.vi" Type="VI" URL="../VIs/Test shm sal Event setting Versions LV.vi"/>
+	<Item Name="Test shm sal Event settings Applied LV.vi" Type="VI" URL="../VIs/Test shm sal Event settings Applied LV.vi"/>
 	<Item Name="Test shm sal Event simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm sal Event simulation Mode LV.vi"/>
 	<Item Name="Test shm sal Event software Versions LV.vi" Type="VI" URL="../VIs/Test shm sal Event software Versions LV.vi"/>
 	<Item Name="Test shm sal Event summary State LV.vi" Type="VI" URL="../VIs/Test shm sal Event summary State LV.vi"/>
@@ -238,9 +246,9 @@
 	<Item Name="Test shm sal Processor exit Control LV.vi" Type="VI" URL="../VIs/Test shm sal Processor exit Control LV.vi"/>
 	<Item Name="Test shm sal Processor fault LV.vi" Type="VI" URL="../VIs/Test shm sal Processor fault LV.vi"/>
 	<Item Name="Test shm sal Processor set Arrays LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Arrays LV.vi"/>
+	<Item Name="Test shm sal Processor set Auth List LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Auth List LV.vi"/>
 	<Item Name="Test shm sal Processor set Log Level LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Log Level LV.vi"/>
 	<Item Name="Test shm sal Processor set Scalars LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Scalars LV.vi"/>
-	<Item Name="Test shm sal Processor set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Simulation Mode LV.vi"/>
 	<Item Name="Test shm sal Processor set Value LV.vi" Type="VI" URL="../VIs/Test shm sal Processor set Value LV.vi"/>
 	<Item Name="Test shm sal Processor standby LV.vi" Type="VI" URL="../VIs/Test shm sal Processor standby LV.vi"/>
 	<Item Name="Test shm sal Processor start LV.vi" Type="VI" URL="../VIs/Test shm sal Processor start LV.vi"/>
@@ -254,9 +262,9 @@
 	<Item Name="Test shm wait For Completion exit Control LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion exit Control LV.vi"/>
 	<Item Name="Test shm wait For Completion fault LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion fault LV.vi"/>
 	<Item Name="Test shm wait For Completion set Arrays LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Arrays LV.vi"/>
+	<Item Name="Test shm wait For Completion set Auth List LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Auth List LV.vi"/>
 	<Item Name="Test shm wait For Completion set Log Level LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Log Level LV.vi"/>
 	<Item Name="Test shm wait For Completion set Scalars LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Scalars LV.vi"/>
-	<Item Name="Test shm wait For Completion set Simulation Mode LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Simulation Mode LV.vi"/>
 	<Item Name="Test shm wait For Completion set Value LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion set Value LV.vi"/>
 	<Item Name="Test shm wait For Completion standby LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion standby LV.vi"/>
 	<Item Name="Test shm wait For Completion start LV.vi" Type="VI" URL="../VIs/Test shm wait For Completion start LV.vi"/>
