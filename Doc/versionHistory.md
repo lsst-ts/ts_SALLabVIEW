@@ -1,5 +1,10 @@
 # Version History
 
+1.0.5
+
+- Use the test data from **ts_sal** commit: `13a69b9`.
+- Remove the check of private item in `createElements.vi`.
+
 1.0.4
 
 - Rename the **Jenkinsfile** to **Jenkinsfile.labview**.
