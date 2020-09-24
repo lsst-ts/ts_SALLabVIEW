@@ -1,5 +1,9 @@
 # Version History
 
+1.0.6
+
+- Update the **Jenkinsfile.labview** to use the private docker image in CTIO nexus.
+
 1.0.5
 
 - Use the test data from **ts_sal** commit: `13a69b9`.
