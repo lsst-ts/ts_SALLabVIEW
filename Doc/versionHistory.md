@@ -1,5 +1,9 @@
 # Version History
 
+1.0.7
+
+- Use the new docker image in **Jenkinsfile.labview** and remove the not-needed step.
+
 1.0.6
 
 - Update the **Jenkinsfile.labview** to use the private docker image in CTIO nexus.
